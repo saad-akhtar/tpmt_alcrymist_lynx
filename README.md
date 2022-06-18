@@ -1,2 +1,2 @@
-# tpmt_alcrymist_lynx
+# tpmt_alcry
 tpmt_alcrymist_lynx
