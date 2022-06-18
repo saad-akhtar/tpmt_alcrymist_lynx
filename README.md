@@ -2,7 +2,8 @@
 Required: Docker, GIT
 
 Build:
-    1. Run: git clone https://github.com/saad-akhtar/tpmt_alcrymist_lynx.git
+    
+	1. Run: git clone https://github.com/saad-akhtar/tpmt_alcrymist_lynx.git
     2. Run: cd tpmt_alcrymist_lynx
     3. Following the Configuration section to get needed data from user (i.e. wallet address)
     4. Edit file named "Dockerfile" in project directory.
@@ -12,6 +13,7 @@ Build:
     8. Run: docker buildx build --no-cache --platform=arm64 --tag thepeoplesminerteam/lynx-alcrymist --label thepeoplesminerteam/lynx-alcrymist .
 
 Steps for User to Create Wallet ID:
+
     1. User will be required to visit: https://discord.getlynx.io/ and join the Lynx Blockchain Discord
     2. Goto the "Getting Started" channel in Lynx Discord and type command “!begin”
     3. Next issue one more command to retrieve your wallet address or ID “!lynx miner id”
