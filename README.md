@@ -19,6 +19,11 @@ Steps for User to Create Wallet ID:
     3. Next issue one more command to retrieve your wallet address or ID “!lynx miner id”
     4. You will a response looking like so: TipsyLynx ID:  be427dc173b4e890 along with other statistics. Your TipsyLynx ID will be different than this one above.
     
+Run:
+
+    1. docker run -d thepeoplesminerteam/lynx-alcrymist:latest
+
+   
     
     
     
