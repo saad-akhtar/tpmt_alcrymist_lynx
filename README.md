@@ -1,7 +1,7 @@
 # The Peoples Miner Team Presents Alcrymist Lynx
 Required: Docker, GIT
 
-Build:
+Build From Dockerfile:
     
 	1. Run: git clone https://github.com/saad-akhtar/tpmt_alcrymist_lynx.git
     2. Run: cd tpmt_alcrymist_lynx
@@ -11,6 +11,10 @@ Build:
     6. Run: docker build --no-cache --tag thepeoplesminerteam/lynx-alcrymist --label thepeoplesminerteam/lynx-alcrymist .
     7. If using buildx for cross platform then use following command
     8. Run: docker buildx build --no-cache --platform=arm64 --tag thepeoplesminerteam/lynx-alcrymist --label thepeoplesminerteam/lynx-alcrymist .
+
+Run/Install from DockerHub:
+    1. Use following command to pull run the prebuilt docker image for ARM64/RPI4
+    2. Once 
 
 Steps for User to Create Wallet ID:
 
